@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006979-blue)](https://doi.org/10.82901/nemar.on006979)
+
 # BIDS-EEG Dataset: Examining Perceptual Grouping on Stages of Processing in Visual Working Memory: An ERP Study
 
 **Authors: Hanane Ramzaoui, Melissa Beck**
