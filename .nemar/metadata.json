@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Examining Perceptual Grouping on Stages of Processing in Visual Working Memory: An ERP Study",
+  "description": "This dataset contains EEG recordings from 53 participants performing a bilateral change-detection task designed to examine how perceptual grouping by color repetition influences distinct stages of visual working memory processing. Event-related potential markers (N2pc, CDA, N2, FN400) are used to temporally isolate encoding, maintenance, comparison, and decision-making stages. The dataset was collected at Louisiana State University and is structured according to the BIDS-EEG standard.",
+  "methods_description": "EEG was recorded using a BioSemi ActiveTwo system with 71 channels (64 scalp, 3 EOG, 2 mastoid, 1 CMS/DRL) at a 512 Hz sampling rate while participants performed a bilateral change-detection task with 1248 trials. Offline preprocessing included re-referencing to average mastoids, ICA-based artifact removal, and 0.1 Hz high-pass filtering, as detailed in the Stage 1 registered report protocol.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,6 +12,34 @@
     },
     "Melissa Beck": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
+    },
+    {
+      "term": "visual working memory"
+    },
+    {
+      "term": "perceptual grouping"
+    },
+    {
+      "term": "N2pc"
+    },
+    {
+      "term": "CDA"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006979.v1.0.1",
@@ -19,7 +49,7 @@
     {
       "identifier": "10.17605/OSF.IO/RZS96",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on006979",
@@ -34,7 +64,7 @@
     {
       "identifier": "10.17605/OSF.IO/8ZS96",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -43,10 +73,10 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "289.0 GB (2333 files)"
   ],
@@ -76,31 +106,6 @@
     ".vmrk",
     ".xlsx",
     ".yml"
-  ],
-  "description": "This EEG dataset comprises electrophysiological recordings from 53 subjects performing a bilateral change-detection task designed to investigate how perceptual grouping based on color repetition influences visual working memory (VWM) processing. Using event-related potentials (ERPs), the study temporally isolates neural correlates of distinct VWM stages—individuation encoding, maintenance, initial comparison, percept-memory comparison, and decision making—through specific ERP markers (N2pc, CDA, N2, FN400). The dataset includes 1,248 trials recorded at 512 Hz from a 71-channel BioSemi ActiveTwo system and is structured according to BIDS standards.",
-  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 71 channels (64 scalp, 3 EOG, 2 mastoid, 1 CMS/DRL reference) at a sampling rate of 512 Hz. Subjects performed a bilateral change-detection task with memory arrays containing 2-3 colored squares in one visual hemifield, followed by a maintenance period and a single-item probe for change detection. Experimental conditions manipulated array composition (unrepeated vs. repeated colors) and spatial proximity of repeated items. Offline preprocessing included re-referencing to average mastoids, ICA-based artifact removal, and 0.1 Hz high-pass filtering. ERP components were measured in specific time windows relative to stimulus and probe onsets.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "visual working memory"
-    },
-    {
-      "term": "perceptual grouping"
-    },
-    {
-      "term": "change detection"
-    },
-    {
-      "term": "N2pc"
-    },
-    {
-      "term": "contralateral delay activity"
-    }
   ],
   "source_hash": "f537f1fb7345a032ee9f6a4df70ed982d74ff519e2f24e71dce0ad7b2f02b51f"
 }
